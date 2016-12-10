@@ -1,2 +1,1 @@
-# Data-Structure
-Some basic operation of commom data structure
+Some basic data structure
