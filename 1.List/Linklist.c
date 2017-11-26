@@ -12,7 +12,7 @@ typedef struct LNode
 {
 	ElemType data;
 	struct LNode *next;
-}LNode,*LinkList;
+}LNode, *LinkList;
 
 //初始化
 Status InitList(LinkList *L)

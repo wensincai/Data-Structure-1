@@ -101,7 +101,20 @@ int Length(SqStack *S)
 }
 
 //±éÀúÕ»
-Status Traverse(SqStack *S)
+Status TraverseUp(SqStack *S)
+{
+    SElemType *p;
+    p = S->base;
+    while(p < S->top)
+    {
+        printf("%d ",*p);
+        p++;
+    }
+    printf("\n");
+    return OK;
+}
+
+Status TraverseDown(SqStack *S)
 {
 	SElemType *p;
 	p = S->top - 1;

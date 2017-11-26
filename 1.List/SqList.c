@@ -179,6 +179,7 @@ void test()
 	InitList(&L);
 
 	//创建
+	printf("=============================================\n");
 	int n;
 	printf("Please input the number of elem:");
 	scanf("%d",&n);
